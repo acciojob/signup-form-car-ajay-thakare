@@ -1,2 +1,54 @@
 
 /* Your CSS Code here. */
+
+h1{
+	text-align:center;
+	color:#333;
+	margin-bottom:15px;
+}
+form {
+	width: 400px;
+	margin: 50px auto;
+	border: 1px solid violet;
+	border-radius: 5px;
+	padding: 20px;
+	background: #f9f9f9;
+	
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+	width:100%;
+	padding:15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
